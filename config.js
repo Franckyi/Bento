@@ -11,32 +11,32 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Franck',
   imageBackground: false,
-  openInNewTab: true,
+  openInNewTab: false,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
+  greetingMorning: 'Good morning,',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingNight: 'Go to Sleep,',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherKey: '35fc04f8c39211de09f8e08ed1784118',
+  weatherIcons: 'Nord', // 'OneDark', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '45.181',
+  defaultLongitude: '5.734',
 
   // Autochange
-  autoChangeTheme: true,
+  autoChangeTheme: false,
 
-  // Autochabge by OS
-  changeThemeByOS: false, 
+  // Autochange by OS
+  changeThemeByOS: true,
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: true,
@@ -51,40 +51,40 @@ const CONFIG = {
   cards: [
     {
       id: '1',
+      name: 'Twitter',
+      icon: 'twitter',
+      link: 'https://twitter.com/home',
+    },
+    {
+      id: '2',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://www.youtube.com/feed/subscriptions',
+    },
+    {
+      id: '3',
       name: 'Github',
       icon: 'github',
       link: 'https://github.com/',
     },
     {
-      id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
-    },
-    {
-      id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
-    },
-    {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Reddit',
+      icon: 'glasses',
+      link: 'https://reddit.com/',
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
+      name: 'Twitch',
+      icon: 'twitch',
+      link: 'https://twitch.tv/',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
-    },
+      name: 'News',
+      icon: 'file-text',
+      link: 'https://news.google.com',
+    }
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
@@ -92,46 +92,38 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'code',
+  secondListIcon: 'settings',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'ArchWiki',
+        link: 'https://wiki.archlinux.org/',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'i3 docs',
+        link: 'https://i3wm.org/docs/userguide.html',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'CurseForge',
+        link: 'https://www.curseforge.com/minecraft/mc-mods/ibe-editor',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
+        name: 'Modrinth',
+        link: 'https://modrinth.com/mod/ibe-editor',
+      }
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Wikipedia',
+        link: 'https://www.wikipedia.org/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
-      },
-      {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
-      },
-      {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
-      },
+        name: 'DeepL',
+        link: 'https://www.deepl.com/translator',
+      }
     ],
   },
 };

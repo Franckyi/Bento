@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Bento</title>
+    <title>Home</title>
     <link
       rel=" shortcut icon"
       type="image/png"
@@ -43,7 +43,7 @@
         </div>
         <div class="weather">
           <div class="weatherIcon">
-            <img src="assets/icons/OneDark/unknown.png" />
+            <img src="assets/icons/Nord/unknown.png" />
           </div>
           <div class="weatherValue">
             <p class="">- °<span class="g">c</span></p>
@@ -52,6 +52,14 @@
             <p class=""></p>
           </div>
         </div>
+      </div>
+
+      <div class="searchBlock">
+        <form class="searchBox" action="https://duckduckgo.com/" method="get">
+            <img class="engine" id="engineLogo" src="assets/icons/duck.svg" />
+            <input class="inputBox" type="text" name="q" placeholder="Search with DuckDuckGo" autofocus>
+            <button class="button"><i class="searchIcon" icon-name="search"></i></button>
+        </form>
       </div>
 
       <!-- 
@@ -84,6 +92,7 @@
 
     <script src="assets/js/cards.js"></script>
     <script src="assets/js/lists.js"></script>
+
     <script>
       lucide.createIcons();
     </script>
