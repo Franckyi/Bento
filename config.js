@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'Franck',
+  name: 'Skye',
   imageBackground: false,
   openInNewTab: false,
   twelveHourFormat: false,
@@ -69,21 +69,21 @@ const CONFIG = {
     },
     {
       id: '4',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com/',
+      name: 'Mail',
+      icon: 'mail',
+      link: 'https://mail.proton.me/',
     },
     {
       id: '5',
-      name: 'Twitch',
-      icon: 'twitch',
-      link: 'https://twitch.tv/',
+      name: 'Calendar',
+      icon: 'calendar',
+      link: 'https://calendar.proton.me/',
     },
     {
       id: '6',
-      name: 'News',
-      icon: 'file-text',
-      link: 'https://news.google.com',
+      name: 'Drive',
+      icon: 'hard-drive',
+      link: 'https://drive.proton.me/',
     }
   ],
 
@@ -92,19 +92,19 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'code',
-  secondListIcon: 'settings',
+  firstListIcon: 'globe',
+  secondListIcon: 'info',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'ArchWiki',
-        link: 'https://wiki.archlinux.org/',
+        name: 'Reddit',
+        link: 'https://reddit.com/',
       },
       {
-        name: 'i3 docs',
-        link: 'https://i3wm.org/docs/userguide.html',
+        name: 'Twitch',
+        link: 'https://twitch.tv/',
       },
       {
         name: 'CurseForge',
@@ -117,6 +117,10 @@ const CONFIG = {
     ],
     secondList: [
       {
+        name: 'News',
+        link: 'https://news.google.com',
+      },
+      {
         name: 'Wikipedia',
         link: 'https://www.wikipedia.org/',
       },
@@ -124,6 +128,6 @@ const CONFIG = {
         name: 'DeepL',
         link: 'https://www.deepl.com/translator',
       }
-    ],
-  },
+    ]
+  }
 };
