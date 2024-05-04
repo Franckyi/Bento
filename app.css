@@ -4,7 +4,7 @@
 // ╚═╝╚═╝╝╚╝ ╩ ╚═╝ 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
 /* V A R I A B L E S */
 
@@ -18,12 +18,12 @@
   --iconsize: 4vh;
 
   /* Light theme  */
-  --accent: #5e81ac; /* Hover color */
-  --bg: #f2f4f8; /* Background color */
-  --sbg: #ffffff; /* Cards color */
+  --accent: #8839ef; /* Hover color */
+  --bg: #eff1f5; /* Background color */
+  --sbg: #ccd0da; /* Cards color */
 
-  --fg: #4c566a; /* Foreground color */
-  --sfg: #7b88a1; /* Sceondary Foreground color */
+  --fg: #4c4f69; /* Foreground color */
+  --sfg: #eff1f5; /* Sceondary Foreground color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg);
@@ -35,11 +35,11 @@
 
 /* Dark theme  */
 .darktheme {
-  --accent: #5e81ac; /* Hover color */
-  --bg: #242933; /* Background color */
-  --sbg: #3b4252; /* Cards color */
-  --fg: #eceff4; /* Foreground color */
-  --sfg: #d8dee9; /* Secondary Foreground color */
+  --accent: #cba6f7; /* Hover color */
+  --bg: #1e1e2e; /* Background color */
+  --sbg: #313244; /* Cards color */
+  --fg: #cdd6f4; /* Foreground color */
+  --sfg: #1e1e2e; /* Secondary Foreground color */
   --imgbg: url(assets/background.jpg);
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.25),
@@ -209,7 +209,7 @@ body {
   background: none;
   padding-right: 15px;
   padding-left: 15px;
-  color: whitesmoke;
+  color: var(--fg);
   font-size: 22px;
   border-radius: 0;
   height: 70px;
@@ -219,7 +219,7 @@ body {
 .button {
   background: none;
   border: none;
-  transition-duration: 0.6s;
+  transition-duration: 0.3s;
   padding-left: 11px;
   padding-right: 12px;
   height: 70px;
@@ -231,9 +231,9 @@ body {
   padding-left: 12px;
   padding-right: 11px;
   border: none;
-  transition-duration: 0.6s;
+  transition-duration: 0.3s;
   position: relative;
-  opacity: 90%;
+  opacity: 75%;
 }
 
 form {
