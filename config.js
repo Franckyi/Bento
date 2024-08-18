@@ -51,9 +51,9 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Twitter',
+      name: 'Bluesky',
       icon: 'twitter',
-      link: 'https://twitter.com/home',
+      link: 'https://bsky.app/',
     },
     {
       id: '2',
@@ -98,10 +98,6 @@ const CONFIG = {
   // Links
   lists: {
     firstList: [
-      {
-        name: 'Reddit',
-        link: 'https://reddit.com/',
-      },
       {
         name: 'Twitch',
         link: 'https://twitch.tv/',
